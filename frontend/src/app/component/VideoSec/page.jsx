@@ -6,23 +6,23 @@ import { motion } from 'framer-motion';
 
 const VideoSection = () => {
   return (
-    <div className="video-section">
+    <div className="video-section mb-3">
       <video
         className="video-background"
         autoPlay
         loop
         muted
-        playsInline
+        playsInline   
       >
         <source src="/couples2.mp4" type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
+      </video> 
 
-      <div className="overlay" />
+      <div className="overlay"/>
 
       <div className="content">
         <h1 className=''>
-          Find Love That Lasts
+          Find Love That Lasts 
         </h1>
 
         <motion.p

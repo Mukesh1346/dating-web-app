@@ -31,6 +31,7 @@ const page = () => {
       <TrustedSec/>
       </AnimatedSection>
 
+    <VideoSection/>
       <AnimatedSection>   
       <DateAdviceSec/>
       </AnimatedSection>
@@ -54,12 +55,11 @@ const page = () => {
 
     </AnimatedSection> 
     
+    {/* <TestimonialCarousel/> */}
     {/* <AnimatedSection>     
-         <TestimonialCarousel/>
        </AnimatedSection> */}
 
       {/* <AnimatedSection>
-      <VideoSection/>
       </AnimatedSection>
          <CubeMainSec/> */}
        {/* <CubeSection/> */}
