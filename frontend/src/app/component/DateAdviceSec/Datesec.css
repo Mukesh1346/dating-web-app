@@ -1,0 +1,183 @@
+/* Datesec.css */
+
+.dateAdviceImageSec {
+    position: relative;
+    background-image: url("../../Images/Video-Banner.jpg");
+    height: 497px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .PlayiconSvg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .SvgPic:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .AdviceRightSec {
+    width: 100%;
+    background: #f5f5f5;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .subtitle-section {
+    font-family: "Archivo Narrow", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+  }
+  
+  .DataTittle {
+    font-weight: 600;
+    font-size: 45px;
+    text-align: center;
+  }
+  
+  .element-container {
+    max-width: 90%;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #e8385c;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 30px 30px 30px 0px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    font-size: 18px;
+  }
+  
+  .boldSec {
+    font-weight: 600;
+  }
+  
+  .preferenceSec {
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  .preferenceElementSec {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 620px;
+    margin: 0 auto;
+  }
+  
+  .elements-button-wrapper {
+    font-size: 20px;
+    width: 100%;
+  }
+  
+  .elementor-button1,
+  .elementor-button2 {
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 7px;
+    /* padding: 12px 0; */
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 8px 11px 0px #f8cfe3;
+  }
+  
+  .elementor-button1 {
+    background-color: #fe8e73;
+  }
+  
+  .elementor-button2 {
+    background-color: #e7375b;
+  }
+  
+  /* Media Queries */
+  
+  @media (max-width: 992px) {
+    .DataTittle {
+      font-size: 36px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .DataTittle {
+      font-size: 28px;
+    }
+
+    .preferenceElementSec {
+        gap: 5px;
+       
+      }
+  
+    .AdviceRightSec {
+        padding: 20px 20px;
+      }
+    .preferenceSec {
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .element-container {
+        border-radius: 20px 20px 20px 0px;
+        font-size: 10px;
+        margin: 10px auto
+    }
+ 
+
+    .subtitle-section {
+      font-size: 17px;
+    }
+  
+   
+  
+    .elementor-button1,
+    .elementor-button2 {
+      font-size: 18px;
+      padding:  0px;
+    }
+  
+    .dateAdviceImageSec {
+      margin-top: 10px;
+      height: 300px;
+    }
+  
+    .PlayiconSvg {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .DataTittle {
+      font-size: 24px;
+    }
+  
+    .subtitle-section {
+      font-size: 15px;
+    }
+  
+    .element-container {
+      font-size: 10px;
+      margin: 10px auto
+    }
+  
+    .elementor-button1,
+    .elementor-button2 {
+      font-size: 16px;
+    }
+  
+    .dateAdviceImageSec {
+      height: 250px;
+    }
+  }
+  

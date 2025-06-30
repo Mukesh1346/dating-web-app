@@ -1,0 +1,66 @@
+.profile-tabs-section .list-group-item.active {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    background-color: var(--bg);
+}
+
+.profile-tabs-section .list-group-item {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.801);
+    font-weight: 600;
+    font-size: 18px;
+    border-top: none;
+    border-bottom: 1px solid lightgray;
+    border-left: none;
+    padding: 15px 25px;
+    border-right: none;
+}
+
+.list-group {
+    background: transparent !important;
+}
+
+.profile-tabs-bg {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    /* padding: 20px; */
+    height: 100%;
+}
+
+
+.table-content-overflow {
+    height: 70vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+@media screen and (max-width: 768px) {
+    .profile-tabs-bg {
+        position: fixed;
+        z-index: 999;
+        bottom: 0px;
+        height: auto;
+        left: 0px;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .profile-tabs-section .list-group-item {
+        padding: 10px 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .profile-tabs-bg .list-group {
+        display: flex !important;
+        flex-direction: row !important;
+    }
+
+    .tab-btn-name {
+        display: none;
+    }
+
+}

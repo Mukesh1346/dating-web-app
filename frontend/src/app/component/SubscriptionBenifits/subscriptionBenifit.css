@@ -1,0 +1,66 @@
+.SubscriptionBenifitSec{
+  background-image: url('../../Images/white-bg.png');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  width: 100%;
+  height: 100%;
+}
+.titlesec{
+    text-align: center;
+    margin-bottom:30px;
+  
+  }
+  
+  .titlesec h1{ 
+     font-weight: 700 !important;
+    color:darkslategray;
+   
+  }
+  
+  .SubscriptionleftSec{
+    display: flex;
+    justify-content: center;
+    }
+
+    .SubscriptionleftSec img{
+      width: 100%;
+      height: 100%;
+      max-width: 500px;
+      max-height: 500px;
+    }
+
+
+    .SubscriptionRightSec{
+        margin:30px;
+      }
+      
+      
+      .SubscriptionRightSec p{
+        font-size: 15px;
+        line-height: 30px;
+        font-style: italic;
+        color: #888;
+        margin-bottom: 10px;
+      }
+      
+      
+.SubscriptionRightSec p {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 5px;
+  }  
+
+  .sectionsubtitle{
+    font-size: 30px;
+    font-weight:700;
+    color:darkslategray;
+  } 
+  
+
+@media screen and (max-width: 768px) {
+    .SubscriptionRightSec {
+     margin: 10px 0;
+    }
+  
+}

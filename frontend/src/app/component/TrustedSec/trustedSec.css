@@ -1,0 +1,106 @@
+.trustedSec .svgImg:hover {
+  transform: scale(1.08);
+  transition: transform 0.3s ease;
+}
+
+.trusted-sec-main {
+  padding: 40px 0;
+}
+
+.trustedtitleSec p {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.trustedSec p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+.trustedSec h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
+
+.trustedSec {
+  background: white;
+  /* semi-transparent glass layer */
+  backdrop-filter: blur(10px);
+  border: 5px solid black;
+  /* background blur */
+  -webkit-backdrop-filter: blur(10px);
+  /* for Safari */
+  border-radius: 16px;
+  padding: 20px;
+  color: #000000;
+  /* white text on blurred bg */
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  /* soft glassy shadow */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  /* glassy edge */
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+
+
+
+@media (max-width : 768px) {
+  .trusted-sec-main {
+    padding: 0px 0;
+  }
+
+  .trustedtitleSec p {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+  .trustedSec img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .trustedSec {
+    margin: 0px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .couple-form-left p {
+    padding: 0 40px;
+    text-align: center;
+  }
+
+  .trustedSec img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .trustedSec p {
+    font-size: 10px;
+    color: rgb(1, 1, 1);
+  }
+
+  .trustedSec h3 {
+    font-size: 14px;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  .trustedtitleSec h1 {
+    background-color: var(--bg);
+    color: white;
+    padding: 7px 20px;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    margin: auto auto 1rem;
+    -webkit-clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 51%, 0% 0%);
+    clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 5% 51%, 0% 0%);
+    font-size: 16px;
+  }
+
+}

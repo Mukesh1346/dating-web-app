@@ -1,0 +1,151 @@
+.download-app {
+    padding: 2rem 0;
+    background-image: url('../../Images/white-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.download-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* ✅ Always show image */
+.download-image {
+    flex: 1 1 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-image img {
+    max-width: 70%;
+    height: auto;
+    object-fit: contain;
+}
+
+.download-content {
+    flex: 1 1 300px;
+    padding: 1rem;
+}
+
+.download-content h2 {
+    font-size: 46px;
+    font-weight: 600;
+    color: var(--bg);
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.download-content h5 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.download-content h5 span {
+    color: var(--bg);
+}
+
+.download-content p {
+    color: #92949f;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+
+.download-app-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.cus-btn,
+.cus-btn2 {
+    padding: 10px 18px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+.cus-btn {
+    background-color: var(--bg);
+    color: #fafafa;
+}
+
+.cus-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.cus-btn2 {
+    border: 2px solid var(--bg);
+    color: black;
+    background-color: transparent;
+}
+
+.cus-btn2:hover {
+    background-color: black;
+    color: white;
+}
+
+/* 📱 Mobile Styles */
+@media (max-width: 768px) {
+    .download-wrapper {
+        flex-direction: column;
+        text-align: center;
+        gap:0;
+    }
+
+    .download-image img {
+        width: 75%;
+    }
+
+    .download-content h2 {
+        font-size: 28px;
+    }
+
+    .download-content h5 {
+        font-size: 18px;
+    }
+
+    .download-content p {
+        font-size: 15px;
+    }
+
+    .download-app-buttons {
+        justify-content: center;
+    }
+
+    .cus-btn,
+    .cus-btn2 {
+        font-size: 15px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .download-content h2 {
+        font-size: 24px;
+    }
+
+    .download-content h5 {
+        font-size: 16px;
+    }
+
+    .download-app-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cus-btn,
+    .cus-btn2 {
+        width: 100%;
+        text-align: center;
+    }
+}
