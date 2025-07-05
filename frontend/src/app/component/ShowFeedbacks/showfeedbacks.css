@@ -44,3 +44,37 @@
   .feedback-card-info {
     flex-grow: 1;
   }
+
+  @media (max-width:768px){
+    .feedback-card-img {
+      width: 100px;
+      height: 100px;
+    }
+    .feedback-card-horizontal {
+      /* height:200px; */
+      flex-direction: column;
+    }
+    .features{
+      display: none;
+    }
+    .book-now-btn {
+      padding: 5px 10px;
+    }
+.discount-badge {
+  display: none;
+}
+    .price-and-book p{
+    margin: 0;
+
+    }
+    .booking-meta p {
+      font-size: 0.8rem;
+    }
+    .feedback-card-info h4{
+      font-size: 16px;
+    }
+
+    .FeedbackSec{
+      padding: 0px;
+    }
+  }

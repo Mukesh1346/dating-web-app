@@ -55,7 +55,7 @@ const page = () => {
 
     </AnimatedSection> 
     
-    {/* <TestimonialCarousel/> */}
+    <TestimonialCarousel/>
     {/* <AnimatedSection>     
        </AnimatedSection> */}
 

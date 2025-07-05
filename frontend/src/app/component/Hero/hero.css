@@ -262,9 +262,14 @@
 
 }
 
-@media (max-width: 400px){
+@media (max-width: 430px){
     .hero-section {
         background-image: none;
+    }
+    .hero-text{
+        background-image: url(/src/app/Images/Group1000000853) !important;
+        background-position: center !important;
+        background-size: cover !important;
     }
 }
 
