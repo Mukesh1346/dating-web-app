@@ -6,24 +6,24 @@ import coupleImage from "@/app/Images/midImage.png";
 
 const BenefitsSection = () => {
   return (
-    <div className="benefits-section">
+    <div className="benefits-section mt-5">
       <h2 className="benefits-title">Benefits of Using Our Dating Platform</h2>
       <div className="benefits-container">
         <div className="benefit-left">
-          <div className="benefit-box">
+          <div className="benefit-box text-center">
             <div className="pink">
               <h3>Find True Connections:</h3>
             </div>       
-            <p>
+            <p className="text-center pt-2">
               Discover authentic relationships and meaningful conversations
               with like-minded individuals who value love and connection as much as you do.
             </p>
           </div>
-          <div className="benefit-box">
+          <div className="benefit-box text-center">
             <div className="yellow">
               <h3>Advanced Matching:</h3>
             </div>
-            <p>
+            <p className="text-center pt-2">
               Our smart matchmaking algorithm connects you with people who share your interests,
               values, and lifestyle, giving you the best chance to find someone special.
             </p>
@@ -36,19 +36,19 @@ const BenefitsSection = () => {
 
         <div className="benefit-right">
           <div className="benefit-box">
-            <div className="orange">
+            <div className="orange text-center">
               <h3>Safe & Secure:</h3>
             </div>
-            <p>
+            <p className="text-center pt-2">
               Your privacy and safety are our top priority. We use advanced encryption
               and verification tools to ensure your profile is secure and your interactions are genuine.
             </p>
           </div>
           <div className="benefit-box">
-            <div className="pink">
+            <div className="pink text-center">
               <h3>Seamless User Experience:</h3>
             </div>
-            <p>
+            <p className="text-center pt-2">
               Enjoy a smooth, user-friendly interface that lets you focus on making connections,
               with intuitive messaging, dynamic profiles.
             </p>

@@ -106,8 +106,8 @@ const ProfileTabs = () => {
                   { key: 'Feedbacks', label: 'Feedbacks', icon: 'bi-bell-fill' },
                   { key: 'users', label: 'Users', icon: 'bi-person-lines-fill' },
                   { key: 'setting', label: 'Setting', icon: 'bi-gear-fill' },
-                ].map((tab) => (
-                  <button
+                ].map((tab) => (  
+                  <button 
                     key={tab.key}
                     className={`list-group-item list-group-item-action ${activeTab === tab.key ? 'active' : ''}`}
                     onClick={() => setActiveTab(tab.key)}

@@ -98,7 +98,7 @@ const Header = () => {
     <>
       <div className="nav-main">
         <div className="container ">
-          <nav className="navbar ">
+          <nav className="navbar position-relative" style={{zIndex:"9999"}}>
             <div className="desktop row align-items-center w-100">
               <div className="col-md-2 d-flex align-items-center">
                 <div className="nav-logo">

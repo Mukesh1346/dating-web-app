@@ -135,7 +135,7 @@ const ConnectedFriends = () => {
 
                       <form onSubmit={(e) => handleSubmit(e, item.id)}>
                         <div className="star-rating mb-3">
-                          {[1, 2, 3, 4, 5].map((star) => (
+                          {[1, 2, 3, 4, 5].map((star) => (                 
                             <i
                               key={star}
                               className={`bi ${ratings[item.id] >= star ? 'bi-star-fill' : 'bi-star'} star-icon`}

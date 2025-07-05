@@ -5,6 +5,7 @@ import './Datesec.css'
 import Link from 'next/link'
 import pic2 from '@/app/Images/icons-play.png'
 
+
 const page = () => {
   return (
     <>
@@ -32,8 +33,9 @@ const page = () => {
                            </div>
                            <section className='preferenceSec'>
                                 <div className="preferenceElementSec">
+                               
                                 
-                                    <Link href="" className='elementor-button1'>
+                                    <Link href="/pages/Hotpage" className='elementor-button1'>
                                      <button className='btn text-light elements-button-wrapper'>
                                           Mens
                                      </button>
